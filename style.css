@@ -7,7 +7,7 @@ font-family: "Roboto", sans-serif;
 .logo 
 {
 background-color: #000000;
-padding: 10px 10px 10px 10px;
+padding: 10px 40px 10px 10px;
 align-items: center;
 justify-content: space-between;
 display: flex;
@@ -24,13 +24,16 @@ display: flex;
 
 .button a
 {
-    display:flexbox;
-
- padding: 10px 100px;
+    display: flexbox;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -200px;
+    margin-right: 250px;
+ padding: 10px 80px;
 border-radius: 20px;
 text-decoration: none;
 color: rgb(255, 255, 255);
-width: 20px;
+width: 50px;
 }
 
 
@@ -39,8 +42,12 @@ width: 20px;
     background-color: #505050;
 }
 
-.button button 
+.sign-in-button a
 {
+    
+    position: absolute;
+    right: -250px;
+    top: 70px;
   background-color: rgb(255, 255, 255); 
   color: rgb(0, 0, 0);
   border: none;
@@ -49,7 +56,7 @@ width: 20px;
 }
 
 
-.button button:hover
+.sign-in-button a:hover
 {
     background-color: #ffffff;
 }
